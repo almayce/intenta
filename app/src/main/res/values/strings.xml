@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Intenta</string>
+    <string name="about_primary">Приложение обеспечивает удобный контроль за соблюдением регламента и качества во всех сферах жизнедеятельности. Подходит для организации повседневных задач. Для работы достаточно составить список контрольных пунктов, затем запустить проверочную сессию или продолжить начатую. По мере поступления, в режиме проверки, пункты отмечаются статусом. Вы можете зафиксировать пункт с помощью камеры, поделиться им с коллегами, подчиненными и друзьями, для делегирования или совместной работы над задачей.</string>
+    <string name="about_secondary">Премиум аккаунт позволяет пользоваться приложением без ограничений. По вопросам пользования пишите нам. Качество должно быть во всем!</string>
+    <string name="about">О приложении</string>
+    <string name="back">Назад</string>
+    <string name="premium">Премиум</string>
+    <string name="send">Напишите нам</string>
+    <string name="almayce_dev">Almayce Development</string>
+    <string name="points">Пункты</string>
+    <string name="name">Название</string>
+    <string name="done">Выполнено?</string>
+    <string name="progress">0 / 0</string>
+    <string name="sessions">Сессии</string>
+    <string name="welcome">Добро пожаловать!</string>
+    <string name="signin">Вход</string>
+    <string name="new_point">Новый пункт</string>
+    <string name="remove">Удалить?</string>
+    <string name="edit">Редактировать</string>
+    <string name="description">Описание</string>
+    <string name="mode">Режим</string>
+    <string name="unfulfilled_mode">Невыполненные</string>
+    <string name="start_again_mode">Начать заного</string>
+    <string name="continue_mode">Продолжить</string>
+    <string name="new_session">Новая сессия</string>
+    <string name="status">Статус</string>
+    <string name="undone">Не выполнено</string>
+    <string name="logout">Выход</string>
+
+    <string-array name="Hints">
+        <item>Алгоритм</item>
+        <item>Рецепт</item>
+        <item>Приготовление</item>
+        <item>Аудит</item>
+        <item>Контроль</item>
+        <item>Ревизия</item>
+        <item>Инвентаризация</item>
+        <item>Учет</item>
+        <item>Тренировка</item>
+        <item>Образование</item>
+        <item>Клининг</item>
+        <item>Уборка</item>
+        <item>Покупки</item>
+        <item>Подготовка</item>
+        <item>Диагностика</item>
+        <item>Разработка</item>
+        <item>Тестирование</item>
+        <item>Планирование</item>
+        <item>Ремонт</item>
+    </string-array>
+</resources>

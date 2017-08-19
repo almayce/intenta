@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "774952429137",
+    "firebase_url": "https://intenta-d0197.firebaseio.com",
+    "project_id": "intenta-d0197",
+    "storage_bucket": "intenta-d0197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774952429137:android:a437883e55d4868c",
+        "android_client_info": {
+          "package_name": "io.almayce.dev.intenta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774952429137-m3d9ijohhg2ch5nvcd9qpjf3mdnq95r1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.almayce.dev.intenta",
+            "certificate_hash": "f83b038d775b805beb619f278a86c1a24d04e84e"
+          }
+        },
+        {
+          "client_id": "774952429137-vej6at0oreqiqij4mlnd7c8bbdja3d9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChuUe5gbKApal3hY8de1joWfBr_QGyuNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774952429137-vej6at0oreqiqij4mlnd7c8bbdja3d9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

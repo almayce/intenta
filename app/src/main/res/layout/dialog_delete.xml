@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.percent.PercentRelativeLayout
+        android:paddingBottom="@dimen/padding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_dialog">
+
+        <RelativeLayout
+            android:id="@+id/rlToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/remove"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_large" />
+        </RelativeLayout>
+
+   <TextView
+       android:text="@string/name"
+       android:textColor="@color/colorPrimaryDark"
+       android:textSize="@dimen/text_medium"
+       android:id="@+id/tvPointTitle"
+       android:layout_below="@+id/rlToolbar"
+       android:layout_marginLeft="@dimen/margin"
+       android:layout_marginRight="@dimen/margin"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       />
+
+        <ImageView
+            android:id="@+id/ivDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPointTitle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@drawable/back_accent"
+            android:src="@drawable/ic_check_black_24dp" />
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPointTitle"
+            android:layout_toLeftOf="@+id/ivDone"
+            android:layout_marginTop="@dimen/margin"
+            android:background="@drawable/back_accent"
+            android:src="@drawable/ic_close_black_24dp" />
+
+    </android.support.percent.PercentRelativeLayout>
+</layout>

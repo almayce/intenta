@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<android.support.percent.PercentRelativeLayout
+    android:paddingBottom="@dimen/padding"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_dialog">
+
+        <RelativeLayout
+            android:id="@+id/rlToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/mode"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_large" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlMode1"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@drawable/back_accent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@+id/rlToolbar"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unfulfilled_mode"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlMode2"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_toRightOf="@+id/rlMode3"
+            android:background="@drawable/back_accent"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@+id/rlMode1"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_again_mode"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlMode3"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@drawable/back_accent"
+            app:layout_widthPercent="40%"
+            android:layout_height="@dimen/btn_height"
+            android:layout_below="@+id/rlMode1"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:layout_centerInParent="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/continue_mode"/>
+
+        </RelativeLayout>
+
+
+    </android.support.percent.PercentRelativeLayout>
+</layout>

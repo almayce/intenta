@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intenta</string>
+    <string name="about_primary">The application provides convenient control over compliance with the regulations and quality in all spheres of life. It is suitable for organizing everyday tasks. To start working, it is enough to make a list of control points, start a test session or continue if it is already started. As points come, in check mode, they are marked with a status. You can fix the item with the camera, share it with colleagues, subordinates and friends, to delegate or collaborate on the task.</string>
+    <string name="about_secondary">Premium account allows you to use the application without limits. For any questions about using of application, please contact us. Quality should be in everything!</string>
+    <string name="about">About app</string>
+    <string name="back">Back</string>
+    <string name="premium">Premium</string>
+    <string name="send">Write to us</string>
+    <string name="almayce_dev">Almayce Development</string>
+    <string name="points">Points</string>
+    <string name="name">Name</string>
+    <string name="done">Done?</string>
+    <string name="progress">0 / 0</string>
+    <string name="sessions">Sessions</string>
+    <string name="welcome">Welcome!</string>
+    <string name="signin">Sign in</string>
+    <string name="new_point">New point</string>
+    <string name="remove">Remove?</string>
+    <string name="edit">Edit</string>
+    <string name="description">Description</string>
+    <string name="mode">Mode</string>
+    <string name="unfulfilled_mode">Unfulfilled</string>
+    <string name="start_again_mode">Start again</string>
+    <string name="continue_mode">Continue</string>
+    <string name="new_session">New session</string>
+    <string name="status">Status</string>
+    <string name="undone">Undone</string>
+    <string name="logout">Sign out</string>
+
+    <string-array name="Hints">
+        <item>Algorithm</item>
+        <item>Receipt</item>
+        <item>Preparation</item>
+        <item>Audition</item>
+        <item>Controlling</item>
+        <item>Revision</item>
+        <item>Inventory</item>
+        <item>Accounting</item>
+        <item>Training</item>
+        <item>Education</item>
+        <item>Cleaning</item>
+        <item>Purchases</item>
+        <item>Cooking</item>
+        <item>Diagnostic</item>
+        <item>Development</item>
+        <item>Testing</item>
+        <item>Planing</item>
+        <item>Repair</item>
+    </string-array>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <RelativeLayout
+        android:background="@color/colorBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/rlToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="@dimen/margin">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_centerInParent="true"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_large"
+                android:text="@string/progress"/>
+
+        </RelativeLayout>
+        <android.support.percent.PercentRelativeLayout
+            android:id="@+id/rlPoint"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/rlToolbar"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:background="@drawable/back_item"
+            >
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:maxLength="20"
+                android:id="@+id/tvPointTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="@string/name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/text_medium" />
+
+            <TextView
+                android:maxLines="3"
+                android:id="@+id/tvPointDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/tvPointTitle"
+                android:textSize="@dimen/text_small" />
+
+
+        </android.support.percent.PercentRelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginRight="@dimen/margin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rlPoint"
+            android:layout_above="@+id/rlFooter">
+
+            <ImageView
+                android:scaleType="centerCrop"
+                android:id="@+id/ivPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ImageView>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:id="@+id/rlFooter"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="@dimen/margin">
+
+            <ImageView
+                android:background="@drawable/back_accent"
+                android:id="@+id/ivSkip"
+                android:src="@drawable/ic_close_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <TextView
+                android:id="@+id/tvQuest"
+                android:layout_centerInParent="true"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/text_large"
+                android:text="@string/done"/>
+
+            <ImageView
+                android:background="@drawable/back_accent"
+                android:id="@+id/ivDone"
+                android:src="@drawable/ic_check_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</layout>
